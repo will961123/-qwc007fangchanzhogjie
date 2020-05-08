@@ -1,0 +1,238 @@
+/* pages/active/index.wxss */
+page {
+  background-color: #f4f4f4;
+}
+
+.section {
+  padding: 0 20rpx;
+  background-color: #fff;
+  padding-bottom: 24rpx;
+  margin-bottom: 18rpx;
+}
+
+.searchBox .type>text {
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #666666;
+  margin-left: 33rpx;
+}
+
+.searchBox .type>image {
+  width: 16rpx;
+  height: 11rpx;
+  margin: 0 30rpx 0 9rpx;
+}
+
+.searchBox .iptBox {
+  background-color: #f4f4f4;
+  line-height: 30px;
+  height: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0px 4px 0px 16px;
+  font-size: 20rpx;
+}
+
+.searchBox .iptBox>icon {
+  font-size: 24rpx;
+  color: #999999;
+  margin-right: 18rpx;
+}
+
+.searchBox .iptBox>input {
+  flex: 1;
+}
+
+.searchBox .iptBox>button {
+  width: 112rpx;
+  height: 22px;
+  line-height: 22px;
+  background-image: linear-gradient(112deg,
+      #e0c082 0%,
+      #f5deb6 100%);
+  border-radius: 11px;
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #7f6025;
+  padding: 0;
+}
+
+.typeBox {
+  padding-top: 35rpx;
+}
+
+.typeBox .item {
+  padding-bottom: 30rpx;
+  position: relative;
+
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #333333;
+}
+
+.typeBox .item.active {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #000000;
+  margin-top: -2px;
+}
+
+.typeBox .item.active::before {
+  position: absolute;
+  content: '';
+  width: 67rpx;
+  height: 8rpx;
+  background-image: linear-gradient(112deg,
+      #e1c184 0%,
+      #f4ddb3 100%);
+  border-radius: 4rpx;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  /* margin-left: -50%; */
+}
+
+.activeList {
+  margin-top: 37rpx;
+}
+
+.activeList .item {
+  padding-bottom: 32rpx;
+  border-bottom: 1rpx solid #ebebeb;
+  margin-bottom: 27rpx;
+}
+
+.activeList .item .imgBox {
+  position: relative;
+  width: 168rpx;
+  height: 168rpx;
+  overflow: hidden;
+}
+
+.activeList .item .imgBox .bg {
+  width: 100%;
+  height: 100%;
+}
+
+.activeList .item .imgBox .hot {
+  width: 64rpx;
+  height: 64rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.activeList .item .infoBox {
+  margin-left: 24rpx;
+}
+
+.activeList .item .infoBox button {
+  width: 128rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  background-color: #999999;
+  border-radius: 24rpx;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.activeList.active .item .infoBox button {
+  background-color: #e2c185;
+}
+
+
+.activeList .item .infoBox .info {
+  height: 100%;
+  margin-right: 30rpx;
+  flex: 1;
+}
+
+.activeList .item .infoBox .info .tit {
+  font-size: 24rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.activeList .item .infoBox .info .text {
+  font-size: 20rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30rpx;
+  letter-spacing: 0px;
+  color: #333333;
+}
+
+.activeList .item .infoBox .info .hot {
+  height: 30rpx;
+  background-color: #efefef;
+  border-radius: 6rpx;
+  font-family: MicrosoftYaHei;
+  font-size: 18rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #a1a1a1;
+  width: 177rpx;  
+}
+.activeList.active .item .infoBox .info .hot{
+  background-color: #f3e5cb;
+  color: #7f6025;
+}
+.activeList .item .infoBox .info .hot>image {
+  width: 20rpx;
+  height: 23rpx;
+  margin: 0 8rpx 0 12rpx;
+}
+
+.endBox {
+  text-align: center;
+  padding: 42rpx 0;
+}
+
+.endBox>text {
+  display: inline-block;
+  position: relative;
+  font-family: MicrosoftYaHei;
+  font-size: 18rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #c3c3c3;
+}
+
+.endBox>text::before,
+.endBox>text::after {
+  width: 60rpx;
+  height: 1px;
+  content: '';
+  position: absolute;
+  top: 50%;
+  background-color: #c3c3c3;
+}
+
+.endBox>text::before {
+  left: -100rpx;
+}
+
+.endBox>text::after {
+  right: -100rpx;
+}

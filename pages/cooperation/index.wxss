@@ -1,0 +1,113 @@
+page {
+  background-color: #f4f4f4;
+  padding: 0rpx 0rpx 72rpx 0rpx;
+}
+
+.section {
+  background-color: #fff;
+  padding: 0 20rpx;
+}
+
+.banner {
+  width: 100%;
+  height: 320rpx;
+  background-color: #9a9a9a;
+  border-radius: 10rpx;
+  margin-bottom: 30rpx;
+}
+
+.banner>image {
+  width: 100%;
+  height: 100%;
+}
+
+.iptList .item {
+  height: 78rpx;
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+  border-bottom: 1rpx solid #cfcfcf;
+}
+
+.iptList .item input {
+  text-align: right;
+}
+
+/* .iptList .item:last-child {
+  border-bottom: none;
+} */
+
+.selectBox {
+  height: 90rpx;
+  padding: 0 20rpx;
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.selectBox radio {
+  zoom: 0.8;
+  margin-right: 18rpx;
+}
+
+.ruleBox {
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30rpx;
+  letter-spacing: 0px;
+  color: #999999;
+  margin-top: 26rpx;
+}
+
+.btn {
+  width: 100%;
+  margin: 0 auto;
+  height: 69rpx;
+  line-height: 69rpx;
+  background-image: linear-gradient(-69deg,
+      #d19b4e 0%,
+      #ddbb81 100%);
+  border-radius: 6rpx;
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 115rpx;
+}
+
+/* ---------- */
+.contentText {
+  padding: 10rpx 0 30rpx 0;
+  font-size: 24rpx;
+  line-height: 1.6em;
+  color: #000;
+  text-indent: 2em;
+}
+
+.iptList .tit {
+  color: #000;
+  font-size: 28rpx;
+  font-weight: 700;
+  line-height: 2.2em;
+  padding-top: 14rpx;
+}
+
+.saveBtn {
+  margin-top: 38rpx !important;
+  width: 380rpx;
+  height: 57rpx;
+  line-height: 57rpx;
+  background-color: #c38d3f;
+  border-radius: 6rpx;
+}

@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/active/index",
+    "pages/list/index",
+    "pages/user/index",
+    "pages/myCollection/index",
+    "pages/articleDetail/index",
+    "pages/activeDetail/index",
+    "pages/recommend/index",
+    "pages/recommendedList/index",
+    "pages/housingPrice/index",
+    "pages/housingDetail/index",
+    "pages/articleList/index",
+    "pages/aboutUs/index",
+    "pages/cooperation/index",
+    "pages/leavingMessage/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f5dfb8",
+    "navigationBarTitleText": "房产中介小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#ca9447",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/icon_home.png",
+        "selectedIconPath": "static/images/icon_home_select.png"
+      },
+      {
+        "pagePath": "pages/active/index",
+        "text": "活动中心",
+        "iconPath": "static/images/icon_active.png",
+        "selectedIconPath": "static/images/icon_active_select.png"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "text": "选房",
+        "iconPath": "static/images/icon_list.png",
+        "selectedIconPath": "static/images/icon_list_select.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/images/icon_user.png",
+        "selectedIconPath": "static/images/icon_user_select.png"
+      }
+    ]
+  },
+  "debug": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

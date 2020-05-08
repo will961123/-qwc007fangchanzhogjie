@@ -1,0 +1,27 @@
+<!--pages/list/index.wxml-->
+<view class="section" style="padding-top:28rpx">
+	<view class="banner">
+		<image src="../../static/images/pic97.png"></image>
+	</view>
+
+	<view class="item flex">
+		<view class="name">姓名</view>
+		<view class="iptBox flex1">
+			<input placeholder="如陈先生/小姐（必填）"></input>
+		</view>
+	</view>
+	<view class="item flex">
+		<view class="name">姓名</view>
+		<view class="iptBox flex1">
+			<input placeholder="如136000000000（必填）"></input>
+		</view>
+	</view>
+	<view class="item  flex">
+		<view class="name">姓名</view>
+		<view class="iptBox message flex1">
+			<textarea placeholder="请输入您的意见和建议,我们会尽快针对问题进行改进"></textarea>
+		</view>
+	</view>
+
+	<view class="btn">提交</view>
+</view>

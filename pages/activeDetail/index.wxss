@@ -1,0 +1,122 @@
+page {
+  background-color: #ffffff;
+  padding: 0 20rpx;
+  padding-top: 48rpx;
+  box-sizing: border-box;
+  padding-bottom: 46rpx;
+}
+
+.banner {
+  width: 100%;
+  height: 320rpx;
+  background-color: #9a9a9a;
+  border-radius: 10rpx;
+}
+
+.banner>image {
+  width: 100%;
+  height: 100%;
+}
+
+.tit {
+  font-family: MicrosoftYaHei;
+  font-size: 28rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+  margin: 37rpx 0 20rpx 0;
+}
+
+.dateBox {
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #999999;
+  margin-bottom: 52rpx;
+}
+
+.discountList .item {
+  margin-bottom: 65rpx;
+}
+
+.discountList .item .btn {
+  width: 260rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  background-image: linear-gradient(135deg,
+      #c69349 0%,
+      #debd8e 100%);
+  border-radius: 28rpx;
+  font-family: MicrosoftYaHei;
+  font-size: 28rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 35rpx;
+}
+
+.discountList .item .text {
+  text-align: center;
+  width: 336rpx;
+  margin: 0 auto;
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #333333;
+}
+
+.discountList .item .text .yellow {
+  color: #ea7e0c;
+  font-weight: bold;
+}
+
+.addressTextBox {
+  margin: 0 auto;
+  margin-top: 88rpx;
+  width: 567rpx;
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #333333;
+  text-align: center;
+  line-height: 2em;
+}
+
+.addressImgBox {
+  width: 100%;
+  height: 400rpx;
+  margin-top: 38rpx;
+}
+
+.addressImgBox>image {
+  width: 100%;
+  height: 100%;
+}
+
+.btn2 {
+  height: 76rpx;
+  line-height: 76rpx;
+  background-color: #c38d3f;
+  box-shadow: 0px 4px 9px 1px rgba(80, 78, 75, 0.36);
+  border-radius: 38px;
+  margin-top: 86rpx;
+  padding: 0;
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  
+  width: 588rpx !important;
+}

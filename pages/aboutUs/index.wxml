@@ -1,0 +1,18 @@
+<view>
+	<view class="topBox">
+		<view class="logoBox">
+			<image src="../../static/images/pic46.png"></image>
+		</view>
+		<view class="nameBox">
+			<view class="name">保利房地产</view>
+			<view class="tip">专业售房十年,致力于高品质房产</view>
+		</view>
+	</view>
+
+	<view class="contentText">保利房产有限公司创建于2010年8月,专营中高端商品住宅、商铺等房地产的买卖业务,通过i J店直营和自主培育人才的管
+		理模式,目前公司业务线有200名专业经纪人, 18家直营门店设有法务部、财务部、教育训练部、人力资源部等部门保证
+		员工素质和服务品质,得到了顾客的一致好评!公司坚持持续发展的经营理念,致力于为顾客提供安全、快捷、舒心的高品质房产流通服务。</view>
+
+	<view class="address">地址：广东省广州市天河区</view>
+	<view class="address">电话：02085500000</view>
+</view>

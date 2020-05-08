@@ -1,0 +1,193 @@
+page {
+  background-color: #f4f4f4;
+}
+
+.section {
+  padding: 0 20rpx;
+  background-color: #fff;
+}
+
+.articleDetail {
+  padding-top: 34rpx;
+  padding-bottom: 32rpx;
+  margin-bottom: 24rpx;
+}
+
+.articleDetail .tit {
+  font-family: MicrosoftYaHei;
+  font-size: 28rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.articleDetail .dateBox {
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #999999;
+  margin: 24rpx 0 28rpx 0;
+}
+
+.articleDetail .dateBox .name {
+  margin-right: 30rpx;
+}
+
+
+.articleDetail .banner {
+  height: 430rpx;
+  width: 100%;
+}
+
+.articleDetail .banner>image {
+  width: 100%;
+  height: 100%;
+}
+
+.articleDetail .contentText text {
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #333333;
+}
+
+.articleDetail .returnBox image {
+  width: 196rpx;
+  height: 56rpx;
+  margin: 0 auto;
+  display: block;
+  margin-top: 83rpx;
+  margin-bottom: 36rpx;
+}
+
+.articleDetail .adBox {
+  position: relative;
+  width: 100%;
+  height: 288rpx;
+  border-radius: 6rpx;
+  overflow: hidden;
+}
+
+.articleDetail .adBox>image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.articleDetail .adBox .tip {
+  position: absolute;
+  left: 35rpx;
+  top: 25tpx;
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30rpx;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.articleDetail .adBox .bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40rpx;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 0 22rpx 0 28rpx;
+}
+
+.commitBox {
+  padding-top: 40rpx;
+  padding-bottom: 36rpx;
+}
+
+.commitBox .tit {
+  font-family: MicrosoftYaHei;
+  font-size: 28rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 35rpx;
+}
+
+.commitBox .commitList .item {
+  padding-bottom: 46rpx;
+}
+
+.commitBox .commitList .item>image {
+  width: 64rpx;
+  height: 64rpx;
+  background-color: #c38d3f;
+  border-radius: 6rpx;
+  margin-right: 24rpx;
+}
+
+.commitBox .commitList .item .nameBox .name {
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #999999;
+}
+
+.commitBox .commitList .item .nameBox .numBox {
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #c38d3f;
+}
+
+.commitBox .commitList .item .nameBox .numBox>image {
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 10rpx;
+}
+
+.commitBox .commitList .item .commitText {
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30rpx;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-top: 18rpx;
+}
+
+.commitBox .btn {
+  width: 588rpx;
+  height: 76rpx;
+  line-height: 76rpx;
+  background-color: #c38d3f;
+  box-shadow: 0px 4px 9px 1px rgba(80, 78, 75, 0.36);
+  border-radius: 38px;
+  text-align: center;
+  font-family: MicrosoftYaHei;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 0;
+  margin-top: 40rpx;
+}

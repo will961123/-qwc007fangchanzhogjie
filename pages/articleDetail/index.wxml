@@ -1,0 +1,101 @@
+<!--pages/list/index.wxml-->
+<view class="section articleDetail">
+	<view class="tit">救市拉锯战：一月内4地楼市政策一日游</view>
+	<view class="dateBox flex justify-between">
+		<view>
+			<text class="name">时代日报</text>
+			<text class="num">1394人阅读</text>
+		</view>
+		<view>
+			2020-03-28
+		</view>
+	</view>
+	<view class="banner">
+		<image src="../../static/images/pic54.png"></image>
+	</view>
+
+	<view class="contentText">
+		<text>
+    　　3月步入尾声，楼市传统“小阳春”也明显失约—机构数据显示，2020年3月，重点监测的17个一二三线代表城市新房成交量同比下降了24.1%。
+
+　　为挽救楼市低迷行情，地方纾困楼市动作频频。
+
+　　时代周报记者不完全梳理，整个3月，共有上海、广州、深圳、武汉、苏州、南京等19地围绕公积金缓缴、放宽房企预售监管、完善社保缴纳时间认定、优化人才落户等多个方面出台稳楼市政策。同时，相较2月着力支持房企运营，3月更多楼市纾困政策调整聚焦在了提振需求。
+
+　　但也有不少地方政策出现了触碰“红线”的现象。3月，共有广东广州、山东济南、陕西宝鸡、浙江海宁四地遭遇松绑政策“一日游”，这也是近期单月政策“碰壁”次数最多的月份。
+
+　　“所有一日游政策的背后，是疫情压力下地方政府对调控底线的频频试探，也是中央层面对‘不将房地产作为短期刺激经济的手段’的坚决表态。”克而瑞地产研究中心的一份研报指出。
+
+　　3月27日，海宁市住房和城乡建设局相关负责人告诉时代周报记者，“非海宁户籍居民购房不受限购政策约束”这个当时发布的措施，实际上是当地举办“云上房博会”活动期间的一个促销措施。“我们出台该政策的动机很单纯，住建局领导层也是知道的。” 该负责人称。
+
+　　对此，北京大学国民经济研究中心主任苏剑对时代周报记者表示，“中央明确要求的内容，比如‘房住不炒’‘稳地价、稳房价、稳预期’，将会是政策变动的底线。” 
+
+　　试探监管底线
+
+　　尽管各地售楼处的人流陆续显现出复苏的迹象，但市场难以摆脱疫情“冷气”，无论是出于刺激经济增长还是填补财政缺口的需要，地方都按捺不住想要调整楼市政策的心。
+
+　　3月24日下午，一则海宁楼市限购政策暂时松绑的消息不胫而走。消息称，3月25日至4月24日云上房博会期间，非海宁户籍人口在海宁限购一套住房政策暂不执行。换句话说，非海宁户籍在海宁可以买多套房。
+
+　　然而，巨大的舆论反响，让该优惠政策不得不在公布后仅仅一个半个小时就被紧急撤回。
+
+　　时代周报记者了解到，目前海宁市仍然执行限购政策。该政策为2017年颁发，主要包括在海宁市范围内暂停向拥有1套及以上住房的非本市户籍居民家庭出售住房。
+
+　　“海宁放松(限购)一个月的做法比较特殊，此前全国范围并未有过调控政策临时放松的先例。”同策集团首席分析师张宏伟(博客)当时曾直言：“如果市场反应不大，可能一个月后海宁限购政策会直接取消，其他三四线城市也会跟进。”
+    </text>
+	</view>
+
+	<view class="returnBox">
+		<image src="../../static/images/pic55.png"></image>
+	</view>
+
+	<view class="adBox">
+		<image src="../../static/images/pic56.png"></image>
+
+		<text class="tip">广告</text>
+		<view class="bottom flex justify-between align-center">
+			<text>融创 · 揽月府夜景</text>
+			<view class="detailBox">
+				<text>详情</text>
+				>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="section commitBox">
+	<view class="tit">评论</view>
+	<view class="commitList">
+		<view class="item flex align-start">
+			<image src="../../static/images/pic57.png"></image>
+			<view class="flex1">
+				<view class="nameBox flex justify-between align-start">
+					<view class="name">市民崔先生</view>
+					<view class="numBox flex justify-between align-center">
+						<image src="../../static/images/pic59.png"></image>
+						233
+					</view>
+				</view>
+				<view class="commitText">
+					拉锯的确要继续，如果要看全盘，预计到4月中下旬，非湖北地区的房地产市场可以恢复正常交易，但要真正实现交易量的恢复，则还要等到五六月份。
+				</view>
+			</view>
+		</view>
+
+		<view wx:for="{{3}}" wx:key="{{index}}" class="item flex align-start">
+			<image src="../../static/images/pic57.png"></image>
+			<view class="flex1">
+				<view class="nameBox flex justify-between align-start">
+					<view class="name">市民崔先生</view>
+					<view class="numBox flex justify-between align-center">
+						<image src="../../static/images/pic58.png"></image>
+						233
+					</view>
+				</view>
+				<view class="commitText">
+					拉锯的确要继续，如果要看全盘，预计到4月中下旬，非湖北地区的房地产市场可以恢复正常交易，但要真正实现交易量的恢复，则还要等到五六月份。
+				</view>
+			</view>
+		</view>
+	</view>
+  <button class="btn">发表评价</button>
+</view>

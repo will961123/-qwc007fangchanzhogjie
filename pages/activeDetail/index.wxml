@@ -1,0 +1,40 @@
+<view>
+	<view class="banner">
+		<image src="../../static/images/pic60.png"></image>
+	</view>
+	<view class="tit">首选岭南天地尚苑，专属“住”优惠</view>
+	<view class="dateBox">活动时间：2020-03-15至2020-04-30</view>
+	<view class="discountList">
+		<view class="item">
+			<view class="btn">安家优惠</view>
+			<view class="text">
+				每周一、周二，
+				<text class="yellow">首次置业客户3000元</text>安家购房家电券免费领
+			</view>
+		</view>
+		<view class="item">
+			<view class="btn">焕新优惠</view>
+			<view class="text">
+				每周四至周日，
+				<text class="yellow">再次置业客户3000元</text>焕新置业家电券免费领
+			</view>
+		</view>
+		<view class="item">
+			<view class="btn">专属优惠</view>
+			<view class="text" style="width:370rpx" >
+				每周三，
+				<text class="yellow">岭南天地尚苑老业主再购5000元</text>老业主专属家电券免费领
+			</view>
+		</view>
+	</view>
+	<view class="addressTextBox">
+		岭南天地尚苑清盘倒计时 感谢3000位业主的共同选择
+		项目地址：佛山市禅城区兆祥路33号岭南天地尚苑
+		项目服务热线：0757-82711135
+	</view>
+	<view class="addressImgBox">
+		<image src="../../static/images/pic999.png"></image>
+	</view>
+
+	<button class="btn2">参与活动</button>
+</view>

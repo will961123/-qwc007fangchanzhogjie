@@ -1,0 +1,23 @@
+<!--pages/user/index.wxml-->
+<view>
+	<view class="userInofBox">
+		<view class="headerBox flex justify-center align-center">
+			<image src="../../static/images/pic41.png"></image>
+		</view>
+		<view class="userName">嗨，4real.</view>
+	</view>
+
+	<view class="navList">
+		<view bindtap="navNavigator" data-path="{{item.path}}" wx:for="{{navList}}" wx:key="index" class="item flex align-center justify-between">
+			<text>{{item.tit}}</text>
+			<view class="flex align-center">
+				<image class="icon" src="{{item.icon}}"></image>
+				<image class="row" src="../../static/images/pic40.png"></image>
+			</view>
+		</view>
+	</view>
+
+	<view class="agreement">
+		*免责条款：本平台发布的信息仅供参考，不作为要约或承诺。双方的权利义务应以法律规定和签署的买卖合同、补充协议及相关附件为准。为了使您获得更好体验和服务质量， 您同意本平台在您使用时，收集、使用您的相关信息，包括手机号码、微信头像、昵称、地理位置等信息。
+	</view>
+</view>

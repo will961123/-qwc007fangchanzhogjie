@@ -1,0 +1,254 @@
+<view>
+	<swiper indicator-dots='{{true}}' indicator-color="#e9e9e9" indicator-active-color="#fdca76" autoplay="{{true}}" class="banner">
+		<swiper-item>
+			<image src="../../static/images/pic62.png"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="../../static/images/pic28.png"></image>
+		</swiper-item>
+	</swiper>
+
+	<view class="section" style="padding-bottom: 50rpx;margin-bottom:0">
+		<view class=" houseNameBox flex justify-between align-center">
+			<view class="flex  align-center">
+				<view class="tit">东宸铭筑</view>
+				<view class="type">在售</view>
+			</view>
+			<view class="moneyBox">18900元/m²</view>
+		</view>
+	</view>
+
+	<view class="section detailBox">
+		<view class="titBox flex justify-between">
+			<text class="tit">楼盘详情</text>
+			<view class="collBox flex align-center">
+				<image src="../../static/images/pic43.png"></image>
+				<text>收藏</text>
+			</view>
+		</view>
+		<view class="item">
+			<text class="name">楼盘地址：</text>
+			<text class="txt">南部新城东环河以北、规划庙港里以南</text>
+		</view>
+		<view class="item">
+			<text class="name">建筑类型：</text>
+			<text class="txt">高层</text>
+		</view>
+		<view class="item">
+			<text class="name">装修状况：</text>
+			<text class="txt">精装</text>
+		</view>
+		<view class="item">
+			<text class="name">开盘时间：</text>
+			<text class="txt">2020-03-01</text>
+		</view>
+		<view class="item">
+			<text class="name">入住日期：</text>
+			<text class="txt">2021-12-24</text>
+		</view>
+		<view class="item">
+			<text class="name">建筑面积：</text>
+			<text class="txt">201766平方米</text>
+		</view>
+		<view class="item">
+			<text class="name">占地面积：</text>
+			<text class="txt">81766平方米</text>
+		</view>
+		<view class="item">
+			<text class="name">绿化率：</text>
+			<text class="txt">36%</text>
+		</view>
+		<view class="item">
+			<text class="name">总户数：</text>
+			<text class="txt">950</text>
+		</view>
+		<view class="item">
+			<text class="name">停车位：</text>
+			<text class="txt">1980</text>
+		</view>
+	</view>
+
+	<view class="section detailBox matchingBox">
+		<view class="menuBox">
+			<view class="item">
+				<image src="../../static/images/pic65.png"></image>
+			</view>
+			<view class="item">
+				<image src="../../static/images/pic66.png"></image>
+			</view>
+		</view>
+		<view class="titBox flex justify-between">
+			<text class="tit">周边配套</text>
+		</view>
+		<view class="item">
+			<text class="name">商业配套：</text>
+			<text class="txt">祖庙商圈、永旺超市、blt超市</text>
+		</view>
+		<view class="item">
+			<text class="name">教育配套：</text>
+			<text class="txt">小区规划幼儿园用地、省级实验中学</text>
+		</view>
+		<view class="item">
+			<text class="name">医疗配套：</text>
+			<text class="txt">佛山市二医院、佛山妇幼保健院</text>
+		</view>
+	</view>
+
+	<view class="section detailBox housePicBox">
+		<view class="titBox flex justify-between">
+			<text class="tit">楼盘图片</text>
+		</view>
+		<scroll-view class="scrollView" scroll-x="{{true}}">
+			<view wx:for="{{5}}" class="scItem">
+				<image src="../../static/images/pic67.png"></image>
+				<view>东宸铭筑约121m²户型</view>
+			</view>
+		</scroll-view>
+	</view>
+
+	<view class="section adBox">
+		<image mode="widthFix" src="../../static/images/pic68.png"></image>
+	</view>
+
+	<view class="section" style="padding-top:28rpx">
+		<view class="tit">推荐</view>
+		<view class="iptList">
+			<view class="item flex align-center justify-between">
+				<text>姓名</text>
+				<input placeholder="请输入本人姓名"></input>
+			</view>
+			<view class="item flex align-center justify-between">
+				<text>手机号</text>
+				<input placeholder="请输入本人手机号"></input>
+			</view>
+		</view>
+		<view class="selectBox flex align-center">
+			<view class="item flex align-center" style="margin-right:78rpx">
+				<radio checked="{{false}}" color="#c38d3f"></radio> 推荐本人
+			</view>
+			<view class="item flex align-center">
+				<radio checked="{{true}}" color="#c38d3f"></radio> 推荐他人
+			</view>
+		</view>
+		<view class="iptList" style="margin-top:-4px">
+			<view class="item flex align-center justify-between">
+				<text>姓名</text>
+				<input placeholder="请输入被推荐人姓名"></input>
+			</view>
+			<view class="item flex align-center justify-between">
+				<text>手机号</text>
+				<input placeholder="请输入被推荐人手机号"></input>
+			</view>
+		</view>
+
+		<view style="padding-bottom:40rpx">
+			<view class="tipText">点击提交即视为同意《个人信息保护声明》 </view>
+			<view class="btn saveBtn">提交推荐信息</view>
+		</view>
+	</view>
+
+	<view class="section">
+		<view class="tit">文章列表</view>
+		<view class="newsList">
+			<view class="item item-video">
+				<view class="tit">广州越秀区时隔9年后再成交宅地 总价23.57亿元</view>
+				<video></video>
+				<view class="bottomBox flex align-center justify-between">
+					<view class="flex align-center">
+						<view class="label">新闻热点</view>
+						<view class="numBox flex align-center">
+							<image mode="widthFix" src="../../static/images/pic17.png"></image>
+							<text>中国新闻网</text>
+						</view>
+						<view class="numBox flex align-center">
+							<image style="width:31rpx" mode="widthFix" src="../../static/images/pic18.png"></image>
+							<text>23333</text>
+						</view>
+						<view class="numBox flex align-center">
+							<image style="width:20rpx" mode="widthFix" src="../../static/images/pic19.png"></image>
+							<text>33333</text>
+						</view>
+					</view>
+					<view>
+						03-19
+					</view>
+				</view>
+			</view>
+			<view class="item item-pic">
+				<view class="tit">广州越秀区时隔9年后再成交宅地 总价23.57亿元</view>
+				<view class="picList flex justify-between">
+					<view class="picBox">
+						<image mode="aspectFill" src="../../static/images/pic13.png"></image>
+					</view>
+					<view class="picBox">
+						<image mode="aspectFill" src="../../static/images/pic14.png"></image>
+					</view>
+					<view class="picBox">
+						<image mode="aspectFill" src="../../static/images/pic15.png"></image>
+					</view>
+				</view>
+				<view class="bottomBox flex align-center justify-between">
+					<view class="flex align-center">
+						<view class="label">新闻热点</view>
+						<view class="numBox flex align-center">
+							<image mode="widthFix" src="../../static/images/pic17.png"></image>
+							<text>中国新闻网</text>
+						</view>
+						<view class="numBox flex align-center">
+							<image style="width:31rpx" mode="widthFix" src="../../static/images/pic18.png"></image>
+							<text>23333</text>
+						</view>
+						<view class="numBox flex align-center">
+							<image style="width:20rpx" mode="widthFix" src="../../static/images/pic19.png"></image>
+							<text>33333</text>
+						</view>
+					</view>
+					<view>
+						03-19
+					</view>
+				</view>
+			</view>
+			<view class="item item-pic">
+				<view class="tit">广州越秀区时隔9年后再成交宅地 总价23.57亿元</view>
+				<view class="picList flex justify-between">
+					<view class="picBox">
+						<image mode="aspectFill" src="../../static/images/pic13.png"></image>
+					</view>
+					<view class="picBox">
+						<image mode="aspectFill" src="../../static/images/pic14.png"></image>
+					</view>
+					<view class="picBox">
+						<image mode="aspectFill" src="../../static/images/pic15.png"></image>
+					</view>
+				</view>
+				<view class="bottomBox flex align-center justify-between">
+					<view class="flex align-center">
+						<view class="label">新闻热点</view>
+						<view class="numBox flex align-center">
+							<image mode="widthFix" src="../../static/images/pic17.png"></image>
+							<text>中国新闻网</text>
+						</view>
+						<view class="numBox flex align-center">
+							<image style="width:31rpx" mode="widthFix" src="../../static/images/pic18.png"></image>
+							<text>23333</text>
+						</view>
+						<view class="numBox flex align-center">
+							<image style="width:20rpx" mode="widthFix" src="../../static/images/pic19.png"></image>
+							<text>33333</text>
+						</view>
+					</view>
+					<view>
+						03-19
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<!-- <view class="showMore">
+		<image src="../../static/images/pic20.png"></image>
+		<text>已经看到最后了</text>
+	</view> -->
+
+
+</view>

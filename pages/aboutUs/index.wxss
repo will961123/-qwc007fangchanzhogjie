@@ -1,0 +1,53 @@
+/* pages/list/index.wxss */
+page {
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.topBox {
+  width: calc(100% - 40rpx);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 80rpx 0rpx 38rpx 0rpx;
+  border-bottom: 1rpx solid #856d5d;
+  text-align: center;
+  margin-bottom: 38rpx;
+}
+
+.topBox .logoBox {
+  width: 240rpx;
+  height: 240rpx;
+  margin: 0 auto;
+  margin-bottom: 34rpx;
+
+}
+
+.topBox .logoBox>image {
+  width: 100%;
+  height: 100%;
+}
+
+.topBox .nameBox .name {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #906448;
+  margin-bottom: 20rpx;
+}
+
+.topBox .nameBox .tip {
+  font-size: 22rpx;
+  color: #c3c3c3;
+}
+
+.contentText {
+  font-size: 26rpx;
+  color: #000;
+  line-height: 1.6em;
+  margin-bottom: 50rpx;
+}
+
+.address{
+  font-size: 26rpx;
+  color: #000;
+  margin-bottom: 14rpx;
+}

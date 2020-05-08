@@ -1,0 +1,138 @@
+<!--pages/active/index.wxml-->
+<view class="section ">
+	<view class="searchBox pt10 flex align-center">
+		<view class="type flex align-center">
+			<text>房源</text>
+			<image src="/static/images/pic01.png"></image>
+		</view>
+		<view class="iptBox flex flex1 align-center">
+			<icon class="weui-icon-search"></icon>
+			<input placeholder="请输入楼盘名字或其他关键字"></input>
+			<button>搜索</button>
+		</view>
+	</view>
+</view>
+
+<view style="margin-bottom:0" class="section ">
+	<view class="typeBox flex justify-around">
+		<view data-type="{{1}}" bindtap="changeType" class="{{type===1?'item active':'item'}}">未开始</view>
+		<view data-type="{{2}}" bindtap="changeType" class="{{type===2?'item active':'item'}}">活动中</view>
+		<view data-type="{{3}}" bindtap="changeType" class="{{type===3?'item active':'item'}}">已结束</view>
+	</view>
+
+	<view wx:if="{{type===1}}" class="activeList">
+		<view class="item flex">
+			<view class="imgBox">
+				<image class="bg" src="../../static/images/pic22.png"></image>
+				<image class="hot" src="../../static/images/pic23.png"></image>
+			</view>
+			<view class="infoBox flex1 flex justify-between align-center">
+				<view class="info flex flex-direction justify-between">
+					<view class="tit">岭南天地尚苑，新年专“鼠”房</view>
+					<view class="text textOv2"> 岭南天地尚苑，祖庙地铁上盖、交通便捷、生活便利、各大型商场提高生活品质 </view>
+					<view class="hot flex align-center">
+						<image src="../../static/images/pic26.png"></image>
+						<text>期待您的参与</text>
+					</view>
+				</view>
+				<button bindtap="gotoActiveDetail">未开始</button>
+			</view>
+		</view>
+
+		<view wx:for="{{5}}" class="item flex">
+			<view class="imgBox">
+				<image class="bg" src="../../static/images/pic22.png"></image>
+				<!-- <image class="hot" src="../../static/images/pic23.png"></image> -->
+			</view>
+			<view class="infoBox flex1 flex justify-between align-center">
+				<view class="info flex flex-direction justify-between">
+					<view class="tit">岭南天地尚苑，新年专“鼠”房</view>
+					<view class="text textOv2"> 岭南天地尚苑，祖庙地铁上盖、交通便捷、生活便利、各大型商场提高生活品质 </view>
+					<view class="hot flex align-center">
+						<image src="../../static/images/pic26.png"></image>
+						<text>期待您的参与</text>
+					</view>
+				</view>
+				<button bindtap="gotoActiveDetail">未开始</button>
+			</view>
+		</view>
+	</view>
+	<view wx:if="{{type===2}}" class="activeList active">
+		<view class="item flex">
+			<view class="imgBox">
+				<image class="bg" src="../../static/images/pic22.png"></image>
+				<image class="hot" src="../../static/images/pic23.png"></image>
+			</view>
+			<view class="infoBox  flex1 flex justify-between align-center">
+				<view class="info flex flex-direction justify-between">
+					<view class="tit">岭南天地尚苑，新年专“鼠”房</view>
+					<view class="text textOv2"> 岭南天地尚苑，祖庙地铁上盖、交通便捷、生活便利、各大型商场提高生活品质 </view>
+					<view class="hot flex align-center">
+						<image src="../../static/images/pic24.png"></image>
+						<text>活动火热进行中</text>
+					</view>
+				</view>
+				<button bindtap="gotoActiveDetail">查看详情</button>
+			</view>
+		</view>
+
+		<view wx:for="{{5}}" class="item flex">
+			<view class="imgBox">
+				<image class="bg" src="../../static/images/pic22.png"></image>
+				<!-- <image class="hot" src="../../static/images/pic23.png"></image> -->
+			</view>
+			<view class="infoBox flex1 flex justify-between align-center">
+				<view class="info flex flex-direction justify-between">
+					<view class="tit">岭南天地尚苑，新年专“鼠”房</view>
+					<view class="text textOv2"> 岭南天地尚苑，祖庙地铁上盖、交通便捷、生活便利、各大型商场提高生活品质 </view>
+					<view class="hot flex align-center">
+						<image src="../../static/images/pic24.png"></image>
+						<text>活动火热进行中</text>
+					</view>
+				</view>
+				<button bindtap="gotoActiveDetail">查看详情</button>
+			</view>
+		</view>
+	</view>
+	<view wx:if="{{type===3}}" class="activeList">
+		<view class="item flex">
+			<view class="imgBox">
+				<image class="bg" src="../../static/images/pic22.png"></image>
+				<image class="hot" src="../../static/images/pic23.png"></image>
+			</view>
+			<view class="infoBox flex1 flex justify-between align-center">
+				<view class="info flex flex-direction justify-between">
+					<view class="tit">岭南天地尚苑，新年专“鼠”房</view>
+					<view class="text textOv2"> 岭南天地尚苑，祖庙地铁上盖、交通便捷、生活便利、各大型商场提高生活品质 </view>
+					<view class="hot flex align-center">
+						<image src="../../static/images/pic27.png"></image>
+						<text>活动已结束</text>
+					</view>
+				</view>
+				<button bindtap="gotoActiveDetail">已结束</button>
+			</view>
+		</view>
+
+		<view wx:for="{{5}}" class="item flex">
+			<view class="imgBox">
+				<image class="bg" src="../../static/images/pic22.png"></image>
+				<!-- <image class="hot" src="../../static/images/pic23.png"></image> -->
+			</view>
+			<view class="infoBox flex1 flex justify-between align-center">
+				<view class="info flex flex-direction justify-between">
+					<view class="tit">岭南天地尚苑，新年专“鼠”房</view>
+					<view class="text textOv2"> 岭南天地尚苑，祖庙地铁上盖、交通便捷、生活便利、各大型商场提高生活品质 </view>
+					<view class="hot flex align-center">
+						<image src="../../static/images/pic27.png"></image>
+						<text>活动已结束</text>
+					</view>
+				</view>
+				<button bindtap="gotoActiveDetail">已结束</button>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="endBox">
+	<text>已经滑到底部了</text>
+</view>

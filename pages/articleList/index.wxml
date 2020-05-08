@@ -1,0 +1,143 @@
+ <view bindtap="gotoArticleDetail" class="section">
+ 	<view class="newsList">
+ 		<view class="item item-ad">
+ 			<view class="tit">瑞态新天地二期样板房展示</view>
+ 			<video></video>
+ 			<view class="bottomBox">
+ 				<view class="label">广告</view>
+ 				<text>来源：瑞态新天地</text>
+ 			</view>
+ 		</view>
+ 		<view class="item item-pic">
+ 			<view class="tit">广州越秀区时隔9年后再成交宅地 总价23.57亿元</view>
+ 			<view class="picList flex justify-between">
+ 				<view class="picBox">
+ 					<image mode="aspectFill" src="../../static/images/pic13.png"></image>
+ 				</view>
+ 				<view class="picBox">
+ 					<image mode="aspectFill" src="../../static/images/pic14.png"></image>
+ 				</view>
+ 				<view class="picBox">
+ 					<image mode="aspectFill" src="../../static/images/pic15.png"></image>
+ 				</view>
+ 			</view>
+ 			<view class="bottomBox flex align-center justify-between">
+ 				<view class="flex align-center">
+ 					<view class="label">新闻热点</view>
+ 					<view class="numBox flex align-center">
+ 						<image mode="widthFix" src="../../static/images/pic17.png"></image>
+ 						<text>中国新闻网</text>
+ 					</view>
+ 					<view class="numBox flex align-center">
+ 						<image style="width:31rpx" mode="widthFix" src="../../static/images/pic18.png"></image>
+ 						<text>23333</text>
+ 					</view>
+ 					<view class="numBox flex align-center">
+ 						<image style="width:20rpx" mode="widthFix" src="../../static/images/pic19.png"></image>
+ 						<text>33333</text>
+ 					</view>
+ 				</view>
+ 				<view>
+ 					03-19
+ 				</view>
+ 			</view>
+ 		</view>
+ 		<view class="item item-video">
+ 			<view class="tit">广州越秀区时隔9年后再成交宅地 总价23.57亿元</view>
+ 			<video></video>
+ 			<view class="bottomBox flex align-center justify-between">
+ 				<view class="flex align-center">
+ 					<view class="label">新闻热点</view>
+ 					<view class="numBox flex align-center">
+ 						<image mode="widthFix" src="../../static/images/pic17.png"></image>
+ 						<text>中国新闻网</text>
+ 					</view>
+ 					<view class="numBox flex align-center">
+ 						<image style="width:31rpx" mode="widthFix" src="../../static/images/pic18.png"></image>
+ 						<text>23333</text>
+ 					</view>
+ 					<view class="numBox flex align-center">
+ 						<image style="width:20rpx" mode="widthFix" src="../../static/images/pic19.png"></image>
+ 						<text>33333</text>
+ 					</view>
+ 				</view>
+ 				<view>
+ 					03-19
+ 				</view>
+ 			</view>
+ 		</view>
+ 		<view class="item item-pic">
+ 			<view class="tit">广州越秀区时隔9年后再成交宅地 总价23.57亿元</view>
+ 			<view class="picList flex justify-between">
+ 				<view class="picBox">
+ 					<image mode="aspectFill" src="../../static/images/pic13.png"></image>
+ 				</view>
+ 				<view class="picBox">
+ 					<image mode="aspectFill" src="../../static/images/pic14.png"></image>
+ 				</view>
+ 				<view class="picBox">
+ 					<image mode="aspectFill" src="../../static/images/pic15.png"></image>
+ 				</view>
+ 			</view>
+ 			<view class="bottomBox flex align-center justify-between">
+ 				<view class="flex align-center">
+ 					<view class="label">新闻热点</view>
+ 					<view class="numBox flex align-center">
+ 						<image mode="widthFix" src="../../static/images/pic17.png"></image>
+ 						<text>中国新闻网</text>
+ 					</view>
+ 					<view class="numBox flex align-center">
+ 						<image style="width:31rpx" mode="widthFix" src="../../static/images/pic18.png"></image>
+ 						<text>23333</text>
+ 					</view>
+ 					<view class="numBox flex align-center">
+ 						<image style="width:20rpx" mode="widthFix" src="../../static/images/pic19.png"></image>
+ 						<text>33333</text>
+ 					</view>
+ 				</view>
+ 				<view>
+ 					03-19
+ 				</view>
+ 			</view>
+ 		</view>
+ 		<view class="item item-pic">
+ 			<view class="tit">广州越秀区时隔9年后再成交宅地 总价23.57亿元</view>
+ 			<view class="picList flex justify-between">
+ 				<view class="picBox">
+ 					<image mode="aspectFill" src="../../static/images/pic13.png"></image>
+ 				</view>
+ 				<view class="picBox">
+ 					<image mode="aspectFill" src="../../static/images/pic14.png"></image>
+ 				</view>
+ 				<view class="picBox">
+ 					<image mode="aspectFill" src="../../static/images/pic15.png"></image>
+ 				</view>
+ 			</view>
+ 			<view class="bottomBox flex align-center justify-between">
+ 				<view class="flex align-center">
+ 					<view class="label">新闻热点</view>
+ 					<view class="numBox flex align-center">
+ 						<image mode="widthFix" src="../../static/images/pic17.png"></image>
+ 						<text>中国新闻网</text>
+ 					</view>
+ 					<view class="numBox flex align-center">
+ 						<image style="width:31rpx" mode="widthFix" src="../../static/images/pic18.png"></image>
+ 						<text>23333</text>
+ 					</view>
+ 					<view class="numBox flex align-center">
+ 						<image style="width:20rpx" mode="widthFix" src="../../static/images/pic19.png"></image>
+ 						<text>33333</text>
+ 					</view>
+ 				</view>
+ 				<view>
+ 					03-19
+ 				</view>
+ 			</view>
+ 		</view>
+ 	</view>
+ </view>
+
+ <view class="showMore">
+ 	<!-- <image src="../../static/images/pic20.png"></image> --> 
+	 <text>已经看到最后了</text>
+ </view>

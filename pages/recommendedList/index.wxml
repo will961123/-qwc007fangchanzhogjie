@@ -1,0 +1,15 @@
+<view>
+	<view wx:for="{{5}}" class="item">
+		<view class="unameBox">
+			<text class="name">李先生</text>
+			<text class="phone">1231231333</text>
+		</view>
+		<view class="dateBox flex justify-between">
+			<view class="name">海珠半岛</view>
+			<view class="date flex align-center">
+				<image src="../../static/images/pic47.png"></image>
+				2020-03-29
+			</view>
+		</view>
+	</view>
+</view>

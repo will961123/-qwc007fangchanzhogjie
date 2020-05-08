@@ -1,0 +1,50 @@
+<view>
+	<view class="collectionList">
+		<view class="item flex ">
+			<image src="../../static/images/pic31.png"></image>
+			<view class="infoBox flex1 flex flex-direction justify-between">
+				<view class="top flex justify-between">
+					<view class="info">
+						<text>中鼎名汇</text>
+						<text class="textOv2">49-85m²精装多功能空间49-85m²精装多功能空间49-85m²精装多功能空间</text>
+					</view>
+					<view class="collectionBox">
+						<view class="btnBox flex justify-center align-center">
+							<image src="../../static/images/pic43.png"></image>
+							<text>点击收藏</text>
+						</view>
+						<view class="money">23333元/M²</view>
+					</view>
+				</view>
+				<view class="labelList flex">
+					<view class="labelItem type1">地铁核心</view>
+					<view class="labelItem type2">主城精装</view>
+					<view class="labelItem type3">省级学区</view>
+				</view>
+			</view>
+		</view>
+		<view wx:for="{{3}}" wx:key="{{index}}" class="item flex ">
+			<image src="../../static/images/pic31.png"></image>
+			<view class="infoBox flex1 flex flex-direction justify-between">
+				<view class="top flex justify-between">
+					<view class="info">
+						<text>中鼎名汇</text>
+						<text class="textOv2">49-85m²精装多功能空间49-85m²精装多功能空间49-85m²精装多功能空间</text>
+					</view>
+					<view class="collectionBox">
+						<view class="btnBox flex justify-center align-center">
+							<image src="../../static/images/pic44.png"></image>
+							<text>取消收藏</text>
+						</view>
+						<view class="money">23333元/M²</view>
+					</view>
+				</view>
+				<view class="labelList flex">
+					<view class="labelItem type1">地铁核心</view>
+					<view class="labelItem type2">主城精装</view>
+					<view class="labelItem type3">省级学区</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

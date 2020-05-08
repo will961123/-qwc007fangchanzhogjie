@@ -1,0 +1,31 @@
+<!--pages/list/index.wxml-->
+<view class="section" style="padding-top:28rpx">
+	<view class="banner">
+		<image src="../../static/images/pic98.png"></image>
+	</view>
+	<view class="contentText">
+		从大的方向来讲，社会行业分为制造业,零售业,服务业,农业。从互联网领域来讲又分为传统互联网和移动互联网,细分下去还
+		有门户，搜索引擎,网络服务,网游,视频网站,电商,互联网基础服务,远程教育等。在行业认识上其实很多新人都有个误区,认
+		为过度包装能够增强自信,提高达成合作的可能。
+		俗话说知己知彼百战百胜,如果连自己公司的历史,市场、客户产品都不了解,更谈不上了解竞争对手与同业同行。
+	</view>
+</view>
+
+<view style="margin-top:20rpx;padding-bottom:50rpx" class="section iptList">
+	<view class="tit">报名入口</view>
+	<view class="item flex align-center justify-between">
+		<text>姓名</text>
+		<input placeholder="请输入本人姓名"></input>
+	</view>
+	<view class="item flex align-center justify-between">
+		<text>手机号</text>
+		<input placeholder="请输入本人手机号"></input>
+	</view>
+	<view class="item flex align-center justify-between">
+		<text>备注</text>
+		<input placeholder="请输入必要的备注"></input>
+	</view>
+
+
+	<view class="btn saveBtn">提交报名信息</view>
+</view>

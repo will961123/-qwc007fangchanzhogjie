@@ -1,0 +1,48 @@
+<!--pages/list/index.wxml-->
+<view class="section" style="padding-top:28rpx">
+	<view class="banner">
+		<image src="../../static/images/pic49.png"></image>
+	</view>
+	<view class="iptList">
+		<view class="item flex align-center justify-between">
+			<text>姓名</text>
+			<input placeholder="请输入本人姓名"></input>
+		</view>
+		<view class="item flex align-center justify-between">
+			<text>手机号</text>
+			<input placeholder="请输入本人手机号"></input>
+		</view>
+	</view>
+</view>
+
+<view class="selectBox flex align-center">
+	<view class="item flex align-center" style="margin-right:78rpx">
+		<radio checked="{{false}}" color="#c38d3f"></radio> 推荐本人
+	</view>
+	<view class="item flex align-center">
+		<radio checked="{{true}}" color="#c38d3f"></radio> 推荐他人
+	</view>
+</view>
+
+<view class="section iptList">
+	<view class="item flex align-center justify-between">
+		<text>姓名</text>
+		<input placeholder="请输入被推荐人姓名"></input>
+	</view>
+	<view class="item flex align-center justify-between">
+		<text>手机号</text>
+		<input placeholder="请输入被推荐人手机号"></input>
+	</view>
+</view>
+
+<view style="padding:0 20rpx">
+	<view class="ruleBox">
+		<view>推荐规则：</view>
+		<view>1.任何人只要在本平台上购买任何一个套餐，都可成为本平台的家庭会员</view>
+		<view>2.所有的家庭会员介绍新会员都想有本公司的现金奖励方案</view>
+		<view>3.介绍他人成为家庭会员，将会得到总消费金额0.1%的现金奖励</view>
+		<view>4.任何人只要在本平台上购买任何一个套餐，都可成为本平台的家庭会员</view>
+	</view>
+
+	<view class="btn">确认推荐</view>
+</view>
