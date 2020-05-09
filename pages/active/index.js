@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    type: 1
+    type: 1,
+    showSelectBox:false
   },
 
   /**
@@ -13,6 +14,11 @@ Page({
    */
   onLoad: function (options) {
 
+  },
+  chnageShowSelectBox(){ 
+    this.setData({
+      showSelectBox:!this.data.showSelectBox
+    })
   },
   gotoActiveDetail(e) { 
     wx.navigateTo({

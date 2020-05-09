@@ -1,1 +1,159 @@
-/* pages/list/index.wxss */
+@import "../myCollection/index.wxss";
+
+page {
+  background-color: #eaeaea;
+}
+
+.titBox {
+  line-height: 106rpx;
+  font-family: MicrosoftYaHei;
+  font-size: 30rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.section {
+  padding: 0 20rpx;
+  background-color: #fff;
+}
+
+.recommendBox {
+  margin-bottom: 28rpx;
+  padding-bottom: 16rpx;
+}
+
+.recommendBox .item>image {
+  width: 222rpx;
+  height: 140rpx;
+  border-radius: 6rpx;
+  border: 1rpx solid #ececec;
+}
+
+.recommendBox .item .nameBox {
+  text-align: center;
+}
+
+.recommendBox .item .nameBox .name {
+  font-family: STHeitiSC-Light;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 5rpx;
+}
+
+.recommendBox .item .nameBox .money {
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ed891c;
+}
+
+.indexItem {
+  height: 36rpx;
+  line-height: 36rpx;
+  background-color: #eaeaea;
+  font-family: MicrosoftYaHei;
+  font-size: 20rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #666666;
+  padding: 0 20rpx;
+}
+
+.indexBar-item>image {
+  width: 17rpx;
+  height: 17rpx;
+}
+
+/* ----------- */
+
+.indexes {
+  position: relative;
+}
+
+.indexBar {
+  position: fixed;
+  right: 0px;
+  top: 100rpx;
+  padding: 20rpx 4rpx 20rpx 60rpx;
+  display: flex;
+  align-items: center;
+}
+
+.indexBar .indexBar-box {
+  width: 40rpx;
+  height: auto;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.1);
+  padding: 20rpx 0;
+  border-radius: 10rpx;
+}
+
+.indexBar-item {
+  flex: 1;
+  /* width: 40rpx;
+  height: 40rpx; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: MicrosoftYaHei;
+  font-size: 18rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #906448;
+  margin-bottom: 6rpx; 
+  width: 26rpx;
+  height: 26rpx;
+  line-height: 26rpx;
+  margin-left: 7rpx;
+}
+
+.indexBar-item.select {
+  background-color: #e1c082;
+  border-radius: 13rpx;
+  color: #fff;
+}
+
+movable-view.indexBar-item {
+  width: 40rpx;
+  height: 40rpx;
+  z-index: 9;
+  position: relative;
+}
+
+movable-view.indexBar-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 10rpx;
+  height: 20rpx;
+  width: 4rpx;
+  background-color: #f37b1d;
+}
+
+.indexToast {
+  position: fixed;
+  top: 0;
+  right: 80rpx;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+  margin: auto;
+  color: #fff;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 48rpx;
+}

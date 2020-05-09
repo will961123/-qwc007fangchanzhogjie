@@ -14,7 +14,11 @@ Page({
   onLoad: function (options) {
 
   },
-
+  gotoHouseDetail(){
+    wx.navigateTo({
+      url: '/pages/housingDetail/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

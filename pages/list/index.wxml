@@ -1,2 +1,54 @@
-<!--pages/list/index.wxml-->
-<text>pages/list/index.wxml</text>
+<scroll-view bindscroll="viewScroll" scroll-y class="indexes" scroll-into-view="indexes-{{listCurID}}" style="height:calc(100vh - {{0}}px - 0px)" scroll-with-animation="true" enable-back-to-top="true">
+	<view class="titBox section">推荐</view>
+	<view class="recommendBox section flex justify-between">
+		<view bindtap="gotoHouseDetail" class="item" wx:key="index" wx:for="{{[1,2,3]}}"  >
+			<image src="../../static/images/pic31.png"></image>
+			<view class="nameBox">
+				<view class="name">天成中心</view>
+				<view class="name">21500元/m²</view>
+			</view>
+		</view>
+	</view>
+	<view class="titBox section">更多</view>
+	<block wx:key="index" wx:for="{{list}}">
+		<view class="indexItem indexItem-{{list[index]}}" id="indexes-{{list[index]}}" data-index="{{list[index]}}">
+			<text wx:if="{{index === 0}}" class="cuIcon-favor"></text>
+			<text wx:else>{{list[index]}}</text>
+		</view>
+		<view class="collectionList">
+			<view bindtap="gotoHouseDetail" wx:for="{{3}}" wx:key="index" class="item flex ">
+				<image src="../../static/images/pic31.png"></image>
+				<view class="infoBox flex1 flex flex-direction justify-between">
+					<view class="top flex justify-between">
+						<view class="info">
+							<text>中鼎名汇</text>
+							<text class="textOv2">49-85m²精装多功能空间49-85m²精装多功能空间49-85m²精装多功能空间</text>
+						</view>
+						<view class="collectionBox">
+							<view class="money" style="margin-top:52rpx">23333元/M²</view>
+						</view>
+					</view>
+					<view class="labelList flex">
+						<view class="labelItem type1">地铁核心</view>
+						<view class="labelItem type2">主城精装</view>
+						<view class="labelItem type3">省级学区</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</block>
+</scroll-view>
+
+<view class="indexBar" style="height:calc(100vh - {{CustomBar}}px - 50px)">
+	<view class="indexBar-box" bindtouchstart="tStart" bindtouchend="tEnd" catchtouchmove="tMove">
+		<view class="{{selectId == index?'indexBar-item select':'indexBar-item'}}" wx:for="{{list}}" wx:key="index" id="{{index}}" bindtouchstart="getCur" bindtouchend="setCur">
+			<text wx:if="{{index === 0}}" class="cuIcon-favor"></text>
+			<text wx:else>{{list[index]}}</text>
+		</view>
+	</view>
+</view>
+
+<!--选择显示-->
+<view hidden="{{hidden}}" class="indexToast">
+	{{listCur}}
+</view>

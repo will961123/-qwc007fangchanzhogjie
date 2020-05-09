@@ -1,5 +1,5 @@
 <view>
-	<view class="collectionList">
+	<view bindtap="gotoHouseDetail" class="collectionList">
 		<view class="item flex ">
 			<image src="../../static/images/pic31.png"></image>
 			<view class="infoBox flex1 flex flex-direction justify-between">

@@ -2,11 +2,19 @@
 <view class="section ">
 	<view class="searchBox pt10 flex align-center">
 		<view class="type flex align-center">
-			<text>房源</text>
+			<text bindtap="chnageShowSelectBox" >房源</text>
 			<image src="/static/images/pic01.png"></image>
+			<view class="{{showSelectBox?'show selectBox':'selectBox'}}">
+				<view class="options">
+					<text>文章</text>
+				</view>
+				<view class="options select">
+					<text>房源</text>
+				</view>
+			</view>
 		</view>
 		<view class="iptBox flex flex1 align-center">
-			<icon class="weui-icon-search"></icon>
+			<icon class="cuIcon-search"></icon>
 			<input placeholder="请输入楼盘名字或其他关键字"></input>
 			<button>搜索</button>
 		</view>

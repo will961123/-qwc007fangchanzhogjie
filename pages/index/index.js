@@ -3,9 +3,13 @@ var base = require("../../data/banner.js"); //只能用相对路径，不能用�
 var baseconfig = require("../../data/globalconfig.js"); //只能用相对路径，不能用绝对路径
 Page({
   data: {
+    showAd: true,
+    showSelectBox: false,
     navList: [{
         pic: '../../static/images/pic07.png',
-        tit: '活动中心'
+        tit: '活动中心',
+        type: 'tabbar',
+        path: '/pages/active/index'
       },
       {
         pic: '../../static/images/pic08.png',
@@ -20,7 +24,9 @@ Page({
       },
       {
         pic: '../../static/images/pic10.png',
-        tit: '选房'
+        tit: '选房',
+        type: 'tabbar',
+        path: '/pages/list/index'
       },
       {
         pic: '../../static/images/pic11.png',
@@ -32,10 +38,27 @@ Page({
   onLoad: function () {
     this.loadBanner();
   },
-  navigate(e) {
-    wx.navigateTo({
-      url: e.currentTarget.dataset.path,
+  closeAd(){
+    this.setData({
+      showAd:false
     })
+  },
+  chnageShowSelectBox() {
+    this.setData({
+      showSelectBox: !this.data.showSelectBox
+    })
+  },
+  navigate(e) {
+    if (e.currentTarget.dataset.type && e.currentTarget.dataset.type === 'tabbar') {
+      wx.switchTab({
+        url: e.currentTarget.dataset.path,
+      })
+    } else {
+      wx.navigateTo({
+        url: e.currentTarget.dataset.path,
+      })
+    }
+
   },
   gotoArticleDetail(e) {
     wx.navigateTo({

@@ -17,10 +17,13 @@
 
 <view class="selectBox flex align-center">
 	<view class="item flex align-center" style="margin-right:78rpx">
-		<radio checked="{{false}}" color="#c38d3f"></radio> 推荐本人
+		<image src="{{true?'../../static/images/pic51.png':'../../static/images/pic52.png'}}"></image>
+		推荐本人
+		<!-- <radio checked="{{false}}" color="#c38d3f"></radio> 推荐本人 -->
 	</view>
 	<view class="item flex align-center">
-		<radio checked="{{true}}" color="#c38d3f"></radio> 推荐他人
+		<image src="{{true?'../../static/images/pic52.png':'../../static/images/pic51.png'}}"></image>推荐他人
+		<!-- <radio checked="{{true}}" color="#c38d3f"></radio> 推荐他人 -->
 	</view>
 </view>
 

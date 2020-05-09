@@ -1,9 +1,9 @@
 <view>
-	<swiper indicator-dots='{{true}}' indicator-color="#e9e9e9" indicator-active-color="#fdca76" autoplay="{{true}}" class="banner">
-		<swiper-item>
+	<swiper style="margin-top:0;border-radius:0" indicator-dots='{{true}}' indicator-color="#e9e9e9" indicator-active-color="#fdca76" autoplay="{{true}}" class="banner">
+		<swiper-item style="margin-top:0;border-radius:0" >
 			<image src="../../static/images/pic62.png"></image>
 		</swiper-item>
-		<swiper-item>
+		<swiper-item style="margin-top:0;border-radius:0" >
 			<image src="../../static/images/pic28.png"></image>
 		</swiper-item>
 	</swiper>
@@ -124,10 +124,12 @@
 		</view>
 		<view class="selectBox flex align-center">
 			<view class="item flex align-center" style="margin-right:78rpx">
-				<radio checked="{{false}}" color="#c38d3f"></radio> 推荐本人
+					<image src="{{true?'../../static/images/pic51.png':'../../static/images/pic52.png'}}"></image> 推荐本人
+				<!-- <radio checked="{{false}}" color="#c38d3f"></radio> 推荐本人 -->
 			</view>
 			<view class="item flex align-center">
-				<radio checked="{{true}}" color="#c38d3f"></radio> 推荐他人
+					<image src="{{true?'../../static/images/pic52.png':'../../static/images/pic51.png'}}"></image> 推荐他人
+				<!-- <radio checked="{{true}}" color="#c38d3f"></radio> 推荐他人 -->
 			</view>
 		</view>
 		<view class="iptList" style="margin-top:-4px">
@@ -149,7 +151,7 @@
 
 	<view class="section">
 		<view class="tit">文章列表</view>
-		<view class="newsList">
+		<view bindtap="gotoArticleDetail" class="newsList">
 			<view class="item item-video">
 				<view class="tit">广州越秀区时隔9年后再成交宅地 总价23.57亿元</view>
 				<video></video>

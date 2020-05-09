@@ -14,7 +14,11 @@ Page({
   onLoad: function (options) {
 
   },
-
+  gotoArticleDetail(e) {
+    wx.navigateTo({
+      url: '/pages/articleDetail/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -51,7 +51,11 @@ page {
   zoom: 0.8;
   margin-right: 18rpx;
 }
-
+.selectBox .item > image{
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 18rpx;
+}
 .ruleBox {
   font-family: MicrosoftYaHei;
   font-size: 20rpx;

@@ -1,24 +1,32 @@
  <view class="section ">
  	<view class="searchBox pt10 flex align-center">
  		<view class="type flex align-center">
- 			<text>房源</text>
+ 			<text bindtap="chnageShowSelectBox">房源</text>
  			<image src="/static/images/pic01.png"></image>
+ 			<view class="{{showSelectBox?'show selectBox':'selectBox'}}">
+ 				<view class="options">
+ 					<text>文章</text>
+ 				</view>
+ 				<view class="options select">
+ 					<text>房源</text>
+ 				</view>
+ 			</view>
  		</view>
  		<view class="iptBox flex flex1 align-center">
- 			<icon class="weui-icon-search"></icon>
+ 			<icon class="cuIcon-search"></icon>
  			<input placeholder="请输入楼盘名字或其他关键字"></input>
  			<button>搜索</button>
  		</view>
  	</view>
 
  	<swiper class="banner" indicator-dots='{{true}}' indicator-color="#e9e9e9" indicator-active-color="#fdca76" autoplay="{{swipersetting.autoplay}}" interval="{{swipersetting.interval}}" duration="{{swipersetting.duration}}">
- 		<swiper-item wx:for="{{imgUrls}}" wx:key='{{index}}'>
+ 		<swiper-item wx:for="{{imgUrls}}" wx:key='index'>
  			<image src="{{item}}" mode="aspectFill" />
  		</swiper-item>
  	</swiper>
 
  	<view class="navList flex justify-around">
- 		<view bindtap="navigate" data-path="{{item.path}}" wx:for="{{navList}}" wx:key="{{index}}" class="item flex flex-direction">
+ 		<view bindtap="navigate" data-type="{{item.type||''}}" data-path="{{item.path}}" wx:for="{{navList}}" wx:key="index" class="item flex flex-direction">
  			<image src="{{item.pic}}"></image>
  			<text>{{item.tit}}</text>
  		</view>
@@ -167,4 +175,11 @@
 
  <view class="showMore">
  	<image src="../../static/images/pic20.png"></image>
+ </view>
+
+ <view wx:if="{{showAd}}" class="mc">
+ 	<image bindtap="closeAd" src="../../static/images/pic95.png" class="close"></image>
+ 	<view class="adBox">
+ 		<image mode="widthFix" src="../../static/images/pic96.png"></image>
+ 	</view>
  </view>
