@@ -84,7 +84,7 @@ page {
 .articleDetail .adBox .tip {
   position: absolute;
   left: 35rpx;
-  top: 25tpx;
+  top: 25rpx;
   font-family: MicrosoftYaHei;
   font-size: 24rpx;
   font-weight: normal;

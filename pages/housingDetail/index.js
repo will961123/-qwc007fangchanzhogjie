@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    selectSelf: 1
   },
 
   /**
@@ -13,6 +13,11 @@ Page({
    */
   onLoad: function (options) {
 
+  },
+  changeSelectSelf(e) {
+    this.setData({
+      selectSelf: Number(e.currentTarget.dataset.type)
+    })
   },
   gotoArticleDetail(e) {
     wx.navigateTo({

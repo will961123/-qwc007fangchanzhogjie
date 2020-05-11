@@ -1,9 +1,9 @@
 <view>
 	<swiper style="margin-top:0;border-radius:0" indicator-dots='{{true}}' indicator-color="#e9e9e9" indicator-active-color="#fdca76" autoplay="{{true}}" class="banner">
-		<swiper-item style="margin-top:0;border-radius:0" >
+		<swiper-item style="margin-top:0;border-radius:0">
 			<image src="../../static/images/pic62.png"></image>
 		</swiper-item>
-		<swiper-item style="margin-top:0;border-radius:0" >
+		<swiper-item style="margin-top:0;border-radius:0">
 			<image src="../../static/images/pic28.png"></image>
 		</swiper-item>
 	</swiper>
@@ -94,7 +94,7 @@
 		</view>
 	</view>
 
-	<view class="section detailBox housePicBox">
+	<view style="paading-right:0" class="section detailBox housePicBox">
 		<view class="titBox flex justify-between">
 			<text class="tit">楼盘图片</text>
 		</view>
@@ -123,12 +123,12 @@
 			</view>
 		</view>
 		<view class="selectBox flex align-center">
-			<view class="item flex align-center" style="margin-right:78rpx">
-					<image src="{{true?'../../static/images/pic51.png':'../../static/images/pic52.png'}}"></image> 推荐本人
+			<view data-type="1" bindtap="changeSelectSelf" class="item flex align-center" style="margin-right:78rpx">
+				<image src="{{selectSelf==1?'../../static/images/pic52.png':'../../static/images/pic51.png'}}"></image> 推荐本人
 				<!-- <radio checked="{{false}}" color="#c38d3f"></radio> 推荐本人 -->
 			</view>
-			<view class="item flex align-center">
-					<image src="{{true?'../../static/images/pic52.png':'../../static/images/pic51.png'}}"></image> 推荐他人
+			<view data-type="2" bindtap="changeSelectSelf" class="item flex align-center">
+				<image src="{{selectSelf==2?'../../static/images/pic52.png':'../../static/images/pic51.png'}}"></image> 推荐他人
 				<!-- <radio checked="{{true}}" color="#c38d3f"></radio> 推荐他人 -->
 			</view>
 		</view>

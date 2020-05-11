@@ -18,11 +18,11 @@
 </view>
 
 <view class="selectBox flex align-center">
-	<view class="item flex align-center" style="margin-right:78rpx">
-			<image src="{{true?'../../static/images/pic51.png':'../../static/images/pic52.png'}}"></image> 推荐本人
+	<view data-type="1" bindtap="changeSelectSelf" class="item flex align-center" style="margin-right:78rpx">
+			<image src="{{selectSelf==1?'../../static/images/pic52.png':'../../static/images/pic51.png'}}"></image> 推荐本人
 	</view>
-	<view class="item flex align-center">
-			<image src="{{true?'../../static/images/pic52.png':'../../static/images/pic51.png'}}"></image> 推荐他人
+	<view data-type="2" bindtap="changeSelectSelf" class="item flex align-center">
+			<image src="{{selectSelf==2?'../../static/images/pic52.png':'../../static/images/pic51.png'}}"></image> 推荐他人
 	</view>
 </view>
 

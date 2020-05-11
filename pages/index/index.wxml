@@ -38,7 +38,11 @@
  	<view class="newsList">
  		<view class="item item-ad">
  			<view class="tit">瑞态新天地二期样板房展示</view>
- 			<video></video>
+ 			<view class="videoBox">
+ 				<video src=""></video>
+ 				<image src="../../static/images/pic12.png"></image>
+ 			</view>
+
  			<view class="bottomBox">
  				<view class="label">广告</view>
  				<text>来源：瑞态新天地</text>
@@ -80,7 +84,10 @@
  		</view>
  		<view class="item item-video">
  			<view class="tit">广州越秀区时隔9年后再成交宅地 总价23.57亿元</view>
- 			<video></video>
+ 				<view class="videoBox">
+ 				<video src=""></video>
+ 				<image src="../../static/images/pic12.png"></image>
+ 			</view>
  			<view class="bottomBox flex align-center justify-between">
  				<view class="flex align-center">
  					<view class="label">新闻热点</view>
