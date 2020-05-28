@@ -22,7 +22,7 @@ page {
   top: 0;
 }
 .item .unameBox {
-  font-size: 26rpx;
+  font-size: 30rpx;
   color: #000;
 }
 
@@ -31,7 +31,7 @@ page {
 }
 
 .item .dateBox {
-  font-size: 20rpx;
+  font-size: 24rpx;
   color: #a9a9a9;
   margin-top: 30rpx;
 }

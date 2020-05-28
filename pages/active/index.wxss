@@ -12,7 +12,7 @@ page {
 
 .searchBox .type>text {
   font-family: MicrosoftYaHei;
-  font-size: 20rpx;
+  font-size: 24rpx;
   font-weight: bold;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -34,7 +34,7 @@ page {
   z-index: 999;
   box-sizing: border-box;
   padding: 0 14rpx;
-  font-size: 20rpx;
+  font-size: 24rpx;
   color: #666;
   text-align: center;
   transition: opacity,transform .8s;
@@ -76,11 +76,11 @@ page {
   overflow: hidden;
   box-sizing: border-box;
   padding: 0px 4px 0px 16px;
-  font-size: 20rpx;
+  font-size: 24rpx;
 }
 
 .searchBox .iptBox>icon {
-  font-size: 24rpx;
+  font-size: 28rpx;
   color: #999999;
   margin-right: 18rpx;
 }
@@ -98,7 +98,7 @@ page {
       #f5deb6 100%);
   border-radius: 11px;
   font-family: MicrosoftYaHei;
-  font-size: 20rpx;
+  font-size: 24rpx;
   font-weight: bold;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -115,7 +115,7 @@ page {
   position: relative;
 
   font-family: MicrosoftYaHei;
-  font-size: 24rpx;
+  font-size: 28rpx;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -123,7 +123,7 @@ page {
 }
 
 .typeBox .item.active {
-  font-size: 28rpx;
+  font-size: 32rpx;
   font-weight: bold;
   color: #000000;
   margin-top: -2px;
@@ -188,7 +188,7 @@ page {
   padding: 0;
   margin: 0;
   font-family: MicrosoftYaHei;
-  font-size: 20rpx;
+  font-size: 24rpx;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -207,7 +207,7 @@ page {
 }
 
 .activeList .item .infoBox .info .tit {
-  font-size: 24rpx;
+  font-size: 28rpx;
   font-weight: bold;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -215,7 +215,7 @@ page {
 }
 
 .activeList .item .infoBox .info .text {
-  font-size: 20rpx;
+  font-size: 24rpx;
   font-weight: normal;
   font-stretch: normal;
   line-height: 30rpx;
@@ -228,7 +228,7 @@ page {
   background-color: #efefef;
   border-radius: 6rpx;
   font-family: MicrosoftYaHei;
-  font-size: 18rpx;
+  font-size: 22rpx;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -254,7 +254,7 @@ page {
   display: inline-block;
   position: relative;
   font-family: MicrosoftYaHei;
-  font-size: 18rpx;
+  font-size: 22rpx;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;

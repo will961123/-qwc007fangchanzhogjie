@@ -10,7 +10,7 @@ page {
 
 .searchBox .type>text {
   font-family: MicrosoftYaHei;
-  font-size: 20rpx;
+  font-size: 24rpx;
   font-weight: bold;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -33,7 +33,7 @@ page {
   z-index: 999;
   box-sizing: border-box;
   padding: 0 14rpx;
-  font-size: 20rpx;
+  font-size: 24rpx;
   color: #666;
   text-align: center;
   transition: opacity, transform .8s;
@@ -77,11 +77,11 @@ page {
   overflow: hidden;
   box-sizing: border-box;
   padding: 0px 4px 0px 16px;
-  font-size: 20rpx;
+  font-size: 24rpx;
 }
 
 .searchBox .iptBox>icon {
-  font-size: 24rpx;
+  font-size: 28rpx;
   color: #999999;
   margin-right: 18rpx;
 }
@@ -99,7 +99,7 @@ page {
       #f5deb6 100%);
   border-radius: 11px;
   font-family: MicrosoftYaHei;
-  font-size: 20rpx;
+  font-size: 24rpx;
   font-weight: bold;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -129,7 +129,7 @@ page {
 .navList .item {
   text-align: center;
   font-family: MicrosoftYaHei;
-  font-size: 20rpx;
+  font-size: 24rpx;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -151,7 +151,7 @@ page {
 
 .newsList .item .tit {
   font-family: MicrosoftYaHei;
-  font-size: 24rpx;
+  font-size: 28rpx;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -181,7 +181,7 @@ page {
 
 .newsList .item .bottomBox {
   font-family: MicrosoftYaHei;
-  font-size: 18rpx;
+  font-size: 22rpx;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -190,7 +190,7 @@ page {
 }
 
 .newsList .item .bottomBox .label {
-  font-size: 18rpx;
+  font-size: 22rpx;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
@@ -235,7 +235,7 @@ page {
   padding: 56rpx 0 50rpx 0;
   text-align: center;
   font-family: MicrosoftYaHei;
-  font-size: 18rpx;
+  font-size: 22rpx;
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 0px;
